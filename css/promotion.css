@@ -1,0 +1,30 @@
+@charset "UTF-8";
+#wrapper {
+    height: auto;
+}
+main #page-title {
+  margin: auto 0;
+  text-align: center;
+  width: 100%;
+}
+main #page-title-inner {
+  display: block;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+main #page-title-inner-bg {
+    text-align: center;
+}
+#page-title-inner-bg-sentences {
+	width: 100%;
+}
+@media only screen and (min-width: 600px) {
+	main #page-title-inner { width: 80%;}
+}
+@media only screen and (min-width: 1024px) {
+	main #page-title-inner { width: 861px;}
+}
+@media only screen and (min-width: 1281px) {
+}
