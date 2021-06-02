@@ -602,19 +602,11 @@ main .container #performance ul li {
 	width: 48%;
     margin: 0 0 5%;
 }
-main .page-performance-block {
-	width: 100%;
-	margin-bottom: 10px;
-}
 .page-performance-right-block {
-    display: flex;
-    justify-content: flex-start;
-    flex-flow: column;
-    align-items: center;
-    width: auto;
+    width: 22vw;
 }
 main .container #performance ul li .page-performance-title-block {
-	width: 50%;
+	width: auto;
 }
 main .container #performance ul li .page-performance-title-block img{
 	height: 120px;
@@ -623,15 +615,12 @@ main .container #performance ul li .page-performance-title-block img.page-perfor
 	height: 110px;
 }
 main .container #performance ul li .page-performance-title-block h2 {
-    font-size: 24px;
+    font-size: 2.5vw;
 	letter-spacing: 3px;
-	margin: 0 0 0 0px;
-	line-height: 1.2;
-	width: 200px;
+	width: 18vw;
 }
 .page-performance-ex {
     font-size: 0.8rem;
-	margin-top: 10px;
 }
 main .container #performance .page-performance-img-block-title {
 	padding: 6px;
@@ -659,10 +648,8 @@ main .container #performance ul li h3 {
 	line-height: 1.2;
 }
 main .container #performance ul li p.page-performance-subtitle {
-    font-size: 13px;
-	line-height: 1.6;
-	margin: 10px 0 0 0px;
-	width: 180px;
+    font-size: 1.3vw;
+	width: 18vw;
 }
 main .container #cta {
 	margin: 110px auto auto;
@@ -711,6 +698,9 @@ main {
 }
 main .container {
     width: 960px;
+}
+.page-performance-right-block {
+    width: auto;
 }
 main .page-performance-centence-image-sp{
 	display: none;
@@ -803,9 +793,6 @@ main .container #performance ul li .page-performance-title-block img.page-perfor
 }
 main .container #performance ul li .page-performance-title-block h2 {
     font-size: 24px;
-	letter-spacing: 3px;
-	margin: 0 0 0 0px;
-	line-height: 1.2;
 	width: 200px;
 }
 .page-performance-ex {
@@ -1003,25 +990,11 @@ main .container #performance ul {
 main .container #performance ul li {
 	margin-bottom: 65px;
 }
-main .container #performance ul li .page-performance-title-block {
-	width: 200px;
-}
 main .container #performance ul li .page-performance-title-block img{
 	height: 120px;
 }
 main .container #performance ul li .page-performance-title-block img.page-performance-title-aichi{
 	height: 110px;
-}
-main .container #performance ul li .page-performance-title-block h2 {
-    font-size: 24px;
-	letter-spacing: 3px;
-	margin: 0 0 0 0px;
-	line-height: 1.2;
-	width: 200px;
-}
-.page-performance-ex {
-    font-size: 0.9rem;
-	margin-top: 10px;
 }
 main .container #performance .page-performance-img-block-title {
 	padding: 6px;
@@ -1043,12 +1016,6 @@ main .container #performance ul li h3 {
     margin-top: 15px;
 	height: 50px;
 	line-height: 1.2;
-}
-main .container #performance ul li p.page-performance-subtitle {
-    font-size: 13px;
-	line-height: 1.6;
-	margin: 10px 0 0 0px;
-	width: 200px;
 }
 main .container #cta h2{
 	font-size: 24px;

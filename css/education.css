@@ -161,6 +161,7 @@ main .container #page-content-inner li .inner-block-box {
     position: relative;
     background: rgb(150, 150, 197);
     border-radius: 110.5px;
+	z-index: 1;
 }
 main .container #page-content-inner li .page-education-content-image {
     height: 100%;
@@ -575,15 +576,6 @@ main .container #page-content-inner li {
 main .container #page-content-inner li:last-child {
 	margin-bottom: 0;
 }
-main .container #page-content-inner li .inner-block-box {
-    width: 270px;
-    height: 219px;
-}
-main .container #page-content-inner li .page-education-content-image {
-    height: 100%;
-    left: 50%;
-    margin-left: -160px;
-}
 main .page-content-inner-bg-sentences {
     margin-bottom: 10px;
     height: 40px;
@@ -872,15 +864,6 @@ main .container #page-content-inner li {
 	margin-bottom: 0;
 	display: flex;
 	flex-flow: column;
-}
-main .container #page-content-inner li .inner-block-box {
-    width: 270px;
-    height: 219px;
-}
-main .container #page-content-inner li .page-education-content-image {
-    height: 100%;
-    left: 50%;
-    margin-left: -160px;
 }
 main .page-content-inner-bg-sentences {
     margin-bottom: 10px;
@@ -1223,15 +1206,6 @@ main .container #page-content-inner li {
 	margin-bottom: 0;
 	display: flex;
 	flex-flow: column;
-}
-main .container #page-content-inner li .inner-block-box {
-    width: 270px;
-    height: 219px;
-}
-main .container #page-content-inner li .page-education-content-image {
-    height: 100%;
-    left: 50%;
-    margin-left: -160px;
 }
 main .page-content-inner-bg-sentences {
     margin-bottom: 10px;
